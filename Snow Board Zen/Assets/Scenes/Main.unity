@@ -235,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.876595, y: 22.706102, z: -10}
+  m_LocalPosition: {x: -42.247368, y: 22.373419, z: -10}
   m_LocalScale: {x: 1.875, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -383,7 +383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371032686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.876595, y: 22.706102, z: -10}
+  m_LocalPosition: {x: -42.247368, y: 22.373419, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1749178302}
@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 1571061800}
   - component: {fileID: 1571061799}
   - component: {fileID: 1571061802}
+  - component: {fileID: 1571061803}
   m_Layer: 0
   m_Name: Leveled Sprite Shape
   m_TagString: Untagged
@@ -652,7 +653,7 @@ EdgeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
@@ -827,6 +828,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!252 &1571061803
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571061798}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 10
+  m_SpeedVariation: 0
+  m_ForceScale: 0.5
+  m_UseContactForce: 0
+  m_UseFriction: 0
+  m_UseBounce: 1
 --- !u!1 &1662785626
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,7 +885,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!70 &1662785628
 CapsuleCollider2D:
@@ -942,15 +961,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662785626}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0025709574, w: 0.9999968}
-  m_LocalPosition: {x: -58.509228, y: 18.162683, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.1275378, w: 0.9918337}
+  m_LocalPosition: {x: -58.88, y: 17.83, z: 0}
   m_LocalScale: {x: 1.9098, y: 1.9603, z: 1}
   m_Children:
   - {fileID: 671291167}
   - {fileID: 2101135464}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.655}
 --- !u!58 &1662785631
 CircleCollider2D:
   m_ObjectHideFlags: 0
