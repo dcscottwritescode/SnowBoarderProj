@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 1662785627}
   - component: {fileID: 1662785628}
   - component: {fileID: 1662785631}
+  - component: {fileID: 1662785632}
   m_Layer: 0
   m_Name: Shaun White
   m_TagString: Untagged
@@ -986,6 +987,19 @@ CircleCollider2D:
   m_Offset: {x: 0.68, y: 0.31}
   serializedVersion: 2
   m_Radius: 0.15890138
+--- !u!114 &1662785632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662785626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce9707c5c311c849bd2954962f81dfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torqueAmount: 0.75
 --- !u!1 &1749178301
 GameObject:
   m_ObjectHideFlags: 3
