@@ -7,11 +7,13 @@ public class CrashDetection : MonoBehaviour
 {
 
     [SerializeField] float sceneDelayCrash = 1.5f;
+    [SerializeField] ParticleSystem crashEffect;
 
     void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.tag == "Ground")
         {
+            crashEffect.Play();
             Invoke("ReloadSceneCrash", sceneDelayCrash);
             Debug.Log("You have crashed! Please start from the beginning...");
         }    
